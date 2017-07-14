@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:LabProject
+ApplicationCable	app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m
+ApplicationCable	app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c
+ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c
+ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
+ApplicationSystemTestCase	test/application_system_test_case.rb	/^class ApplicationSystemTestCase < ActionDispatch::SystemTestCase$/;"	c
+Article	app/models/article.rb	/^class Article < ApplicationRecord$/;"	c
+ArticleTest	test/models/article_test.rb	/^class ArticleTest < ActiveSupport::TestCase$/;"	c
+ArticlesController	app/controllers/articles_controller.rb	/^class ArticlesController < ApplicationController$/;"	c
+ArticlesControllerTest	test/controllers/articles_controller_test.rb	/^class ArticlesControllerTest < ActionDispatch::IntegrationTest$/;"	c
+ArticlesHelper	app/helpers/articles_helper.rb	/^module ArticlesHelper$/;"	m
+ArticlesTest	test/system/articles_test.rb	/^class ArticlesTest < ApplicationSystemTestCase$/;"	c
+Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	class:ApplicationCable
+Comment	app/models/comment.rb	/^class Comment < ApplicationRecord$/;"	c
+CommentTest	test/models/comment_test.rb	/^class CommentTest < ActiveSupport::TestCase$/;"	c
+CommentsController	app/controllers/comments_controller.rb	/^class CommentsController < ApplicationController$/;"	c
+CommentsControllerTest	test/controllers/comments_controller_test.rb	/^class CommentsControllerTest < ActionDispatch::IntegrationTest$/;"	c
+CommentsHelper	app/helpers/comments_helper.rb	/^module CommentsHelper$/;"	m
+Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable
+CreateArticles	db/migrate/20170713065222_create_articles.rb	/^class CreateArticles < ActiveRecord::Migration[5.1]$/;"	c
+CreateComments	db/migrate/20170714081114_create_comments.rb	/^class CreateComments < ActiveRecord::Migration[5.1]$/;"	c
+LabProject	config/application.rb	/^module LabProject$/;"	m
+article_params	app/controllers/articles_controller.rb	/^    def article_params$/;"	f	class:ArticlesController
+change	db/migrate/20170713065222_create_articles.rb	/^  def change$/;"	f	class:CreateArticles
+change	db/migrate/20170714081114_create_comments.rb	/^  def change$/;"	f	class:CreateComments
+comment_params	app/controllers/comments_controller.rb	/^    def comment_params$/;"	f	class:CommentsController
+create	app/controllers/articles_controller.rb	/^  def create$/;"	f	class:ArticlesController
+create	app/controllers/comments_controller.rb	/^  def create$/;"	f	class:CommentsController
+destroy	app/controllers/articles_controller.rb	/^  def destroy$/;"	f	class:ArticlesController
+edit	app/controllers/articles_controller.rb	/^  def edit$/;"	f	class:ArticlesController
+index	app/controllers/articles_controller.rb	/^  def index$/;"	f	class:ArticlesController
+new	app/controllers/articles_controller.rb	/^  def new$/;"	f	class:ArticlesController
+set_article	app/controllers/articles_controller.rb	/^    def set_article$/;"	f	class:ArticlesController
+show	app/controllers/articles_controller.rb	/^  def show$/;"	f	class:ArticlesController
+system!	bin/setup	/^def system!(*args)$/;"	f
+system!	bin/update	/^def system!(*args)$/;"	f
+update	app/controllers/articles_controller.rb	/^  def update$/;"	f	class:ArticlesController

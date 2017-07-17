@@ -19,7 +19,7 @@
         <td><%= link_to article.id, article_path(article) %></td>
         <td><%= article.title %></td>
         <td><%= article.body %></td>
-        <td><%= article.author %></td>
+        <td><%= article.user.name %></td>
         <td><%=l article.created_at %></td>
         <td>
           <%= link_to t('.show', :default => t("helpers.links.show")),

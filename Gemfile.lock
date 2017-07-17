@@ -62,6 +62,7 @@ GEM
     coffee-script-source (1.12.2)
     commonjs (0.2.7)
     concurrent-ruby (1.0.5)
+    device (0.0.0)
     erubi (1.6.1)
     execjs (2.7.0)
     ffi (1.9.18)
@@ -193,6 +194,7 @@ DEPENDENCIES
   byebug
   capybara (~> 2.13.0)
   coffee-rails (~> 4.2)
+  device
   jbuilder (~> 2.5)
   less-rails
   listen (>= 3.0.5, < 3.2)
